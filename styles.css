@@ -1,0 +1,124 @@
+/*
+ *  Copyright (C) 2001 Kai Blaschke <webmaster@thw-theorie.de>
+ *
+ *  The included "THW Thema" templates, logos and the Q&A catalog are protected
+ *  by copyright laws, and must not be used without the written permission
+ *  of the
+ *
+ *  Bundesanstalt Technisches Hilfswerk
+ *  Provinzialstraﬂe 93
+ *  D-53127 Bonn
+ *  Germany
+ *  E-Mail: redaktion@thw.de
+ *
+ *  This program is free software; you can redistribute it and/or modify
+ *  it under the terms of the GNU General Public License as published by
+ *  the Free Software Foundation; either version 2 of the License, or
+ *  (at your option) any later version.
+ *
+ *  This program is distributed in the hope that it will be useful,
+ *  but WITHOUT ANY WARRANTY; without even the implied warranty of
+ *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ *  GNU General Public License for more details.
+ *
+ *  You should have received a copy of the GNU General Public License
+ *  along with this program; if not, write to the Free Software
+ *  Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, USA.
+ */
+ 
+html, body { height: 100%; }
+body { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 100%; margin: 0px; padding: 0px;background-color: white; color: black; background-image:url(img/bg.gif); background-color: transparent; background-position: top left; background-repeat: repeat-y; display: block; }
+img { border: none; }
+acronym { border-bottom: 1px dashed #00F; cursor: help; }
+.contentspalte a { text-decoration:underline; color:#000000;}
+.contentspalte a:hover { text-decoration:underline; color:#3A428C;}
+.korrekt { background-color: transparent; color: #008000; }
+.falsch { background-color: transparent; color: #800000; }
+.fragebkg { background-color: #A0A0A0; color: white; max-width: 1000px; width:100%; margin-bottom: 1em; margin-top: 1em; }
+.fragebkg tr td { background-color: white; color: black; }
+.fragebkg tr td.korrekt { background-color: white; color: #008000;}
+.fragebkg tr td.falsch { background-color: white; color: #800000; }
+.nav { font-size: 70%; margin-bottom: 40px; line-height: 1.4em; }
+.nav ul { margin: 0px; padding: 0px; list-style-type: none; }
+.nav li { margin: 0px; padding: 0px; }
+.nav a { text-decoration: none; color: #fff; display: block; }
+.nav a:hover { text-decoration: none; color: #fff; background-image: url('img/pfeil.gif'); background-repeat: no-repeat; background-position: top left; }
+.nav ul a { background-color: #003399; border-bottom: 1px solid #001689; border-top: 1px solid #1443A1; width: 172px; padding: 4px 4px 4px 20px; }
+.nav ul ul a { background-color: #436EB2; border-bottom: 1px solid #001689; border-top: 1px solid #6288BE; width: 164px; padding: 4px 4px 4px 28px; }
+.nav ul ul ul a { background-color: #6288BE; border-bottom: 1px solid #001689; border-top: 1px solid #85A4CC; width: 156px; padding: 4px 4px 4px 36px; }
+ul#navlist li a#current { background-image: url('img/pfeil.gif'); background-repeat: no-repeat; background-position: top left; }
+#service { font-size:70%; color:#000000; padding-right:12px; width:100%; height:20px; text-align:right;}
+#service a { text-decoration:none; color:#000000; }
+#service a:hover { text-decoration:underline; color:#000000; }
+#breadcrumb { font-size:69%; color:#FFFFFF; background-color:#003399; padding-top:3px; padding-bottom:2px; padding-left:20px; }
+#breadcrumb a { text-decoration:none; color:#FFFFFF; }
+#breadcrumb a:hover { text-decoration:underline; }
+table.layout { width:100%; }
+table.layout td.randlinks { width:12px; height:20px; }
+table.layout td.navspalte { background-color:#FFFFFF; width:196px; height:20px; }
+table.layout td.navvor { border-bottom:solid 1px #001272; height:20px; }
+table.identitaet { width:100%; }
+table.identitaet td.thema { border-bottom:solid 1px #6288BE; width:360px; height:78px; }
+table.identitaet td.logo { background-color:#003399; border-bottom:solid 1px #6288BE; width:100%; height:78px; text-align:right; }
+.content { font-family:Verdana, Arial, Helvetica, sans-serif; font-size:80%; padding-top:20px; padding-right:12px; padding-left:20px; width:100%; }
+.contentspalte { padding-right:20px; padding-bottom:20px; width:100%; }
+.contentspalte .rubrik { font-weight:normal; font-size:80%; color:#003399; border-top:solid 1px #003399; margin-bottom:2px; text-align:right; }
+.contentspalte h1 { font-style:normal; font-size:125%; color:#000000; margin-top:0px; margin-bottom:13px; }
+.contentspalte h2 { font-size:100%; color:#000000; margin-top:16px; margin-bottom:14px; font-weight: bold; }
+.contentspalte h3 { font-style:normal; font-size:125%; color:#000000; margin-top:0px; margin-bottom:16px; }
+.contentspalte p { margin-top:0px; margin-bottom:14px; padding-top:0px; line-height: 1.4em; }
+.contentspalte .textblau { color:#003399; }
+.contentspalte .seitenueberschrift { font-weight:bold; font-size:125%; color:#000000; border-bottom:solid 1px #003399; margin-bottom:11px; padding-bottom:2px; text-align:left; }
+.contentspalte .caption {   padding-top: 0px;  padding-bottom: 8px;}
+.contentspalte .autor { margin-left:1px;  font-style: italic; }
+.contentspalte .topspacer4px { margin-top:15px; }
+.contentspalte ul { margin-top:0px; margin-bottom:13px; margin-left:24px; padding-top:0px; padding-bottom:0px; }
+.contentspalte ul li {  margin: 0; padding: 0px 0px 0px 6px;}
+.contentspalte ol { margin-top:0px; margin-bottom:13px; margin-left:30px; padding-top:0px; padding-bottom:0px; }
+.contentspalte ol li {  margin: 0; padding: 0;}
+.contentspalte ul.seitenanfang { border-bottom:1px solid #003399;  list-style-type: none; margin: 24px 0px 16px 0px;  padding: .5em 0 .5em 0px; clear: both;}
+.contentspalte ul.seitenanfang li a { text-decoration:none; text-align:center;  display: block; margin: 0; padding: 0;}
+.contentspalte ul.seitenanfang .left {  float: left; padding:0;}
+.contentspalte ul.seitenanfang .right {  float: right;}
+.only-print { display: none }
+.fragenr { font-size: 1.5em; font-weight: bold; margin-bottom: 0.5em }
+
+@media print {
+    html, body { font-size: 80%; }
+    td.randlinks,
+    td.navspalte,
+    .nav,
+    .navvor,
+    table.identitaet,
+    #breadcrumb,
+    #service,
+    ul.seitenanfang,
+    input,
+    .no-print { display: none; }
+    .only-print { display: initial }
+
+    table.fragebkg {
+        page-break-inside: avoid;
+        margin-bottom: 0.5em;
+        margin-top: 0.5em;
+        max-width: none;
+	border-collapse: collapse;
+    }
+    table.fragebkg td {
+        border: 1px solid black;
+    }
+
+    .korrekt,
+    .falsch,
+    .fragebkg tr td.korrekt,
+    .fragebkg tr td.falsch { color: black; }
+
+    .print-checkbox {
+        width: 0.4cm;
+        height: 0.4cm;
+        border: 1px solid black;
+    }
+
+    acronym { border-bottom: none; }
+    .contentspalte h1 { font-size: 2em; }
+}

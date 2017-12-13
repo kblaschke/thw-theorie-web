@@ -1,0 +1,7 @@
+RewriteEngine On
+
+RewriteRule ^loesung/abschnitt-(.+?).html index.php?show=loesung&katalog=$1 [QSA]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-l
+RewriteRule ^(.+?).html index.php?show=$1 [QSA]
