@@ -6,29 +6,6 @@
 <p>Auf diesen Seiten haben angehende THW-Helfer die M&ouml;glichkeit, alle
     theoretischen Fragen des schriftlichen Teils der Grundausbildungs-Pr&uuml;fung zu lernen und zu &uuml;ben.</p>
 
-<script type="text/javascript" src="socialshareprivacy/jquery.socialshareprivacy.js"></script>
-<script type="text/javascript">
-    jQuery(document).ready(function ($) {
-        if ($('#socialshareprivacy').length > 0) {
-            $('#socialshareprivacy').socialSharePrivacy({
-                css_path: 'socialshareprivacy/socialshareprivacy/socialshareprivacy.css',
-                uri: 'http://www.thw-theorie.de/',
-                services: {
-                    facebook: {
-                        'dummy_img': 'socialshareprivacy/socialshareprivacy/images/dummy_facebook.png'
-                    },
-                    twitter: {
-                        'dummy_img': 'socialshareprivacy/socialshareprivacy/images/dummy_twitter.png'
-                    },
-                    gplus: {
-                        'dummy_img': 'socialshareprivacy/socialshareprivacy/images/dummy_gplus.png'
-                    }
-                }
-            });
-        }
-    });
-</script>
-<div id="socialshareprivacy"></div>
 <div class="rubrik"><span>Neuigkeiten</span></div>
 
 <h2>Aktualisierte Fragen</h2>
