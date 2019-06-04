@@ -8,7 +8,7 @@
  *  of the
  *
  *  Bundesanstalt Technisches Hilfswerk
- *  Provinzialstraße 93
+ *  Provinzialstraï¿½e 93
  *  D-53127 Bonn
  *  Germany
  *  E-Mail: redaktion@thw.de
@@ -30,7 +30,7 @@
  
 /*
 
-  Auflösungen zu allen Fragen
+  Auflï¿½sungen zu allen Fragen
 
 */
 
@@ -69,22 +69,26 @@ if (isset($_SESSION['zufallsfragen']) || isset($_SESSION['bogen'])) {
 }
 
 if ($katalog > 0) {
+    $selectedNr = NULL;
+    $selectedDescription = NULL;
 
     $stmt = $GLOBALS['db']->prepare('SELECT `Nr`,`Beschreibung` FROM `abschnitte` WHERE `Nr` = ? AND `Jahr` = ?');
     $stmt->bind_param('ii', $katalog, $_SESSION['jahr']);
     $stmt->execute();
-    $stmt->bind_result($nr, $description);
+    $stmt->bind_result($selectedNr, $selectedDescription);
+    $stmt->fetch();
 
-    addBreadcrumb($_REQUEST['show'].'&katalog=' . $nr, $description);
-    
+    addBreadcrumb($_REQUEST['show'].'&katalog=' . $selectedNr, $selectedDescription);
+
     $tpl->addTemplates(Array(
             'content' => 'aufloesung-antworten'
     ));
 
     $tpl->addVars(Array(
-            'abschnittNr' => $nr,
-            'abschnittName' => htmlspecialchars($description)
+            'abschnittNr' => $selectedNr,
+            'abschnittName' => htmlspecialchars($selectedDescription)
     ));
+
     $stmt->close();
 
     $stmt = $GLOBALS['db']->prepare('SELECT * FROM `fragen` WHERE `Abschnitt` = ? AND `Jahr` = ? ORDER BY Abschnitt,Nr ASC');
