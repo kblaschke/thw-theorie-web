@@ -1,52 +1,48 @@
 <div class="rubrik"><span>&nbsp;</span></div>
 <h1>Die
-    <acronym title="Bundesanstalt Technisches Hilfswerk">THW</acronym>-Theoriepr&uuml;fung</h1>
+    <acronym title="Bundesanstalt Technisches Hilfswerk">THW</acronym>-Theorieprüfung</h1>
 <h2>Herzlich willkommen!</h2>
 
-<p>Auf diesen Seiten haben angehende THW-Helfer die M&ouml;glichkeit, alle
-    theoretischen Fragen des schriftlichen Teils der Grundausbildungs-Pr&uuml;fung zu lernen und zu &uuml;ben.</p>
+<p>Auf diesen Seiten haben angehende THW-Helfer die Möglichkeit, alle
+    theoretischen Fragen des schriftlichen Teils der Grundausbildungs-Prüfung zu lernen und zu üben.</p>
+
+<div class="rubrik"><span>Fragenkatalog auswählen</span></div>
+
+<h2>Fragenkatalog auswählen</h2>
+<p>Nicht alle Ortsverbände bzw. Regionalstellen prüfen nach einer Änderung der Theoriefragen immer direkt mit
+    der aktualisierten Fassung, sondern oft noch mit der vom Vorjahr. Im Zweifel bitte beim Ausbildungsbeauftragten
+    des OVs oder dem zuständigen Prüfer nach dem verwendeten Fragenkatalog erkundigen. Fragenkataloge, die älter als
+    zwei Jahre sind, werden generell nicht mehr abgefragt und hier nur aus historischen Gründen vorgehalten.</p>
+
+<p>Die Auswahl des Fragenkatalogs wird für die aktuelle Sitzung gespeichert. Der ausgewählte Katalog ist im
+    Seitentitel ersichtlich.</p>
+
+<p>Jahr auswählen: <a href="/?jahr=2020">2020</a> | <a href="/?jahr=2019">2019</a> | <a href="/?jahr=2015">2015</a> |
+    <a href="/?jahr=2014">2014</a> | <a href="/?jahr=2007">2007</a></p>
 
 <div class="rubrik"><span>Neuigkeiten</span></div>
 
-<h2>Aktualisierte Fragen</h2>
-<p>Die Änderungen aus dem zweiten Änderungsdienst der DV 2-220 vom Dezember 2014 sind in den Fragenkatalog
-    eingeflossen. Konkret haben sich nur die Fragen 12, 19 und 42 aus dem ersten Themenabschnitt und
-    kleinere Passagen der Prüfungsordnung gändert.</p>
-<p>Zusätzlich zu den aktualisierten Daten lassen sich die Zufallsfragen jetzt bequem mit der Tastatur beantworten.
-    Die Antworten A-C können mit den Zahlentasten 1-3 aus- oder abgewählt werden, und die Leer- oder Eingabetaste
-    sendet das Formular ab.</p>
-<p>Die Offline-Version ist ebenfalls aktualisiert, und beinhaltet auch die technischen Änderungen der Online-Version.
-    Das Datenupdate-Paket installiert die neuen Datenbanken und die geänderten Skriptdateien.</p>
-<p><i>(26.02.2015, Kai Blaschke)</i></p>
+<h2>Status der Offline-Version</h2>
+<p>Die Offline-Version is mittlerweile sehr alt und eine Wartung daher kaum noch möglich, da auch die verwendete
+    Technologie nicht mehr dem Stand der Zeit entspricht. Ich hatte die Entwicklung eines neuen Offline-Lernprogramms
+    bereits begonnen, jedoch haben die Entwickler des von mir dafür verwendeten Programmier-Frameworks (Qt) die
+    <a href="https://www.qt.io/blog/qt-offering-changes-2020">Nutzungs-
+        und Lizenzbedingungen in einer Art angepasst</a>, die die Nutzung dieses Frameworks in Open-Source-Projekten
+    zukünftig stark erschwert. Aus diesem Grund habe ich beschlossen, die Offline-Version mit
+    <a href="https://www.electronjs.org/">Electron</a> neu zu entwicklen. Das wird zwar die Download-Größe etwas
+    erhöhen, ist aber zukunftssicherer.</p>
+<p>Ich lasse die bisherige Offline-Version bis dahin verfügbar, veröffentliche aber keine aktualisierten
+    Fragen-Datenbanken mehr dafür. Das neue Programm wird eine automatische Update-Möglichkeit bieten.</p>
+<p>Aufgrund mehrfacher Anfragen noch der Hinweis: Eine Android- oder iPhone-App wird es (von mir) nicht geben, da
+    bereits andere Autoren solcher Apps von der THW Bundesvereinigung e. V. unter Androhung rechtlicher Schritte
+    dazu gezwungen wurden, die Apps wieder aus den jeweiligen Stores zu entfernen. Warum dies nur für mobile Apps, nicht
+    aber für diese Website und die Offline-Version geschah, wollte mir auf direkte Nachfrage niemand mitteilen.</p>
+<p><i>(25.07.2020, Kai Blaschke)</i></p>
 
-<h2>Verbesserungen in der Benutzbarkeit</h2>
-<p>Neben einigen internen Änderungen habe ich das Darstellung der Website auf Bildschirmen mit höherer Auflösung sowie
-    die Druckausgabe ein wenig überarbeitet. Konkret ist die Schrift nun etwas größer, und
-    der Seiteninhalt streckt sich nicht mehr auf die gesamte Bildschirmbreite.</p>
-<p>Die Druckansicht beinhaltet jetzt nur noch
-    den eigentlichen Seiteninhalt, reduziert auf die nötigen Elemente und für einen S/W-Ausdruck optimierte Farben.
-    Insbesondere die Prüfungsbögen lassen sich jetzt so drucken, dass diese auch für eine schriftliche Übung
-    verwendet werden können. Ein einzelner Frageblock wird auch nicht mehr auf zwei Seiten verteilt.</p>
-<p><i>(24.09.2014, Kai Blaschke)</i></p>
-
-<h2>Fragenkatalog 2014: Überarbeitete Fragen und Antworten</h2>
-<p>Die Änderungen aus dem ersten Änderungsdienst sind nun in der Online-Version enthalten. Der
-    Fragenkatalog entspricht jetzt der Version 2.1 (<a href="{scriptName}?jahr=2014" title="Zum Fragenkatalog 2014">Stand März 2014</a>) der Prüfungsvorschrift.</p>
-<p><strong>Update:</strong> Die <a href="/downloads.html">Offline-Version</a> ist nun auch
-    aktualisiert, und enthält nun auf vielfachen Wunsch wieder den optional wählbaren
-    <a href="{scriptName}?jahr=2007" title="Zum Fragenkatalog 2007">Fragenkatalog 2007</a>.</p>
-<p><i>(06.05.2014, Kai Blaschke)</i></p>
-
-<h2>Zugangshilfe für Besucher mit Rot-Grün-Sehschwäche</h2>
-<p>Da einige Besucher mit Rot-Grün-Sehschwäche große Probleme hatten,
-    die farblichen Hervorhebungen zu unterscheiden, und somit beim
-    Beantworten der Fragen nicht erkennen konnten, welche Antworten tatsächlich
-    richtig oder falsch waren, habe ich einen zusätzlichen Seitenstil hinzugefügt.
-    Der Stil verstärkt den Farbkontrast, und versieht die entsprechenden Texte mit einem
-    zusätzlichen X-/Haken-Symbol mit einer größeren Farbfläche. Der Stil kann einfach
-    über die Seite "<a href="barrierefreiheit.html">Barrierefreiheit</a>"
-    oben rechts im Service-Menü umgeschaltet werden.</p>
-<p><i>(27.05.2009, Kai Blaschke)</i></p>
+<h2>Fragenkatalog - Stand Juli 2020 / Version 03.20</h2>
+<p>Der Online-Fragenkatalog wurde auf den aktuellen Stand der offiziellen Prüfungsfragen aktualisiert.
+    Diese wurden am 07. Juli 2020 in ILIAS veröffentlicht.</p>
+<p><i>(25.07.2020, Kai Blaschke)</i></p>
 
 <div>&nbsp;</div>
 <div class="rubrik"><span>Seiten-Statistiken</span></div>

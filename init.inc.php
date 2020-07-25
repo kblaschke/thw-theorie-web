@@ -8,7 +8,7 @@
  *  of the
  *
  *  Bundesanstalt Technisches Hilfswerk
- *  Provinzialstraße 93
+ *  Provinzialstraï¿½e 93
  *  D-53127 Bonn
  *  Germany
  *  E-Mail: redaktion@thw.de
@@ -57,7 +57,7 @@ if (!isset($_SESSION['stats'])) {
 if (isset($_REQUEST['jahr'])) {
     $_SESSION['jahr'] = intval($_REQUEST['jahr']);
 } elseif (!isset($_SESSION['jahr'])) {
-    $_SESSION['jahr'] = 2015;
+    $_SESSION['jahr'] = 2020;
 }
 
 srand(microtime()*(double)10000);
